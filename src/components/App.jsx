@@ -1,13 +1,14 @@
 import userData from "../userData.json";
 import Profile from "./Profile";
 import friends from "../friends.json";
-import FriendList from "./Frendlist";
+import FriendList from "./Friendlist";
+import transactions from "../transactions.json";
+import TransactionHistory from "./TransactionHistory";
 
 const App = () => {
   return (
     <>
       <Profile
-        key={userData.id}
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
@@ -15,6 +16,7 @@ const App = () => {
         stats={userData.stats}
       />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };

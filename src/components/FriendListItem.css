@@ -1,0 +1,16 @@
+.friend {
+  display: flex;
+  align-items: center;
+}
+
+.friend img {
+  margin-right: 10px;
+}
+
+.friend p.online {
+  color: green;
+}
+
+.friend p.offline {
+  color: red;
+}

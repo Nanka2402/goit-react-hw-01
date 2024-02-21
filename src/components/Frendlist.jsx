@@ -1,1 +1,0 @@
-const FriendList = ({ friends }) => {};
