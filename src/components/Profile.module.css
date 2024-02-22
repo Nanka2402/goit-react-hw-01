@@ -1,0 +1,23 @@
+.containerProfile {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 156px;
+  background-color: darkslategrey;
+  border-radius: 50%;
+}
+.name {
+}
+.tag {
+}
+
+.location {
+}
+.link {
+}
