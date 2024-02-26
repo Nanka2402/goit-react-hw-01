@@ -1,0 +1,14 @@
+body tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+body tr:nth-child(even) {
+  background-color: darkgrey;
+}
+
+.transactionHistory {
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
