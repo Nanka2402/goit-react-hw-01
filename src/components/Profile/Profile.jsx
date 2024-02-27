@@ -1,6 +1,12 @@
 import css from "./Profile.module.css";
 
-const Profile = ({ name, tag, location, image, stats }) => {
+const Profile = ({
+  name = "Anonymous",
+  tag = "user",
+  location = "Unknown",
+  image = "default-image.jpg",
+  stats = { followers: 0, views: 0, likes: 0 },
+}) => {
   return (
     <div className={css.containerProfile}>
       <div className={css.card}>
